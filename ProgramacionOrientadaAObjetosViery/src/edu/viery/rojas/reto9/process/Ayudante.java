@@ -2,7 +2,20 @@ package edu.viery.rojas.reto9.process;
 import java.util.Random;
 
 /**
- * En este programa utilizaremos constructores
+ * En este programa utilizaremos constructores y diferentes tipos de string y int para guardar los objetos.
+ *---------------------------------------------------------------------------------------------------------------------
+ * utilizaremos los int para usarlos despues con los rand.nextint con lo que eligira como por ejemplo la variable de
+ * ojos que solo le ponemos al mismo random el valor entre 1 o 2 ojos
+ *---------------------------------------------------------------------------------------------------------------------
+ * despues utilizaremos mas adelante el constructor "Ayudante" al cual le aplicamos toda la informacion que se
+ * conseguira en un futuro metiendole los int y los string los cuales como dije guardaran informacion de ellos
+ * ---------------------------------------------------------------------------------------------------------------------
+ *  utilizaremos metodos return para que nos regresa la informacion que los random.nextint nos da y se guardara en la
+ *  variable en la que la introducimos el mismo.
+ *  ---------------------------------------------------------------------------------------------------------------------
+ *  Luego en el metodo "ImprimirCaracteristicas" como dice obviamente nos dara la informacion de los ayudantes de forma
+ *  exacto metiendole los atributos adentro de los printf para que nos de el valor que se guardo de cada una de ellos y
+ *  nos los informe a nosotros al ejecutarlo.
  */
  class Ayudante {
     private int numOjos;
@@ -61,9 +74,9 @@ import java.util.Random;
         return nivelDestructivo;
     }
 
-    // Método para imprimir las características del ayudante
+    // Método para imprimir las características de cada ayudante
     public void imprimirCaracteristicas() {
-        System.out.println("Ayudante con " + numOjos + " ojos, piel " + colorPiel + ", altura " + altura);
+        System.out.println(" con " + numOjos + " ojos, piel " + colorPiel + ", altura " + altura);
         System.out.println("Nivel para crear objetos: " + nivelCrearObjetos);
         System.out.println("Nivel para arreglar cosas: " + nivelArreglarCosas);
         System.out.println("Nivel destructivo: " + nivelDestructivo);
