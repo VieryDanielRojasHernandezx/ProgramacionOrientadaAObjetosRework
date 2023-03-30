@@ -15,7 +15,7 @@ import java.util.Random;
  *  ---------------------------------------------------------------------------------------------------------------------
  *  Luego en el metodo "ImprimirCaracteristicas" como dice obviamente nos dara la informacion de los ayudantes de forma
  *  exacto metiendole los atributos adentro de los printf para que nos de el valor que se guardo de cada una de ellos y
- *  nos los informe a nosotros al ejecutarlo.
+ *  nos los informe a nosotros al ejecutarlo. :)
  */
  class Ayudante {
     private int numOjos;
