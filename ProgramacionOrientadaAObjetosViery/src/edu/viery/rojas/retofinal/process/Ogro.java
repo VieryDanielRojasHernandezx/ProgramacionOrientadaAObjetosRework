@@ -1,6 +1,6 @@
 package edu.viery.rojas.retofinal.process;
 
-public class Ogro extends Juego{
+public class Ogro extends Juego{ //esta herencia no tiene sentido, no se puede decir que un Ogro es un Juego
     public static int danoGolpe = 10;
     public static int nivelFuerza = 100;
 
